@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints single digit in base 10
+ * main - program entry point
  * Return: Always 0
  */
 int main(void)

@@ -11,8 +11,8 @@ int main(void)
 
 	for (i = 0; i < 16; i++)
 	{
-		putchar(hexvalues[i]
+		putchar(hexvalues[i]);
 	}
 	putchar('\n');
 	return (0);
-}
+

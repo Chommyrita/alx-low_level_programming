@@ -9,26 +9,29 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (m = '0'; m <= '9'; m++)
+		for (j = '0'; j <= '9'; j++)
 		{
-			if (i < j && j < m)
+			for (m = '0'; m <= '9'; m++)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(m);
-				if (i == '7' && j == '8' && m == '9')
+				if (i < j && j < m)
 				{
-					break;
-				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
+					putchar(i);
+					putchar(j);
+					putchar(m);
+					if (i == '7' && j == '8' && m == '9')
+					{
+						break;
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
 	}
 
 	putchar('\n');
-       	return (0);
+    		return (0);
 }

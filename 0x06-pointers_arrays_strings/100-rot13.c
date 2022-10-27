@@ -15,7 +15,7 @@ char *rot13(char *s)
 	char *y =
 		"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	for (i = 0; s[j] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; x[j] != '\0'; j++)
 		{

@@ -6,9 +6,9 @@
  * @s: a string
  * @b: a character
  * @n: an interger
- * Return: Always 0
+ * Return: a string
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int a;
 
